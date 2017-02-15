@@ -1,0 +1,15 @@
+Source: shadowsocks-go
+Section: net
+Priority: optional
+Maintainer: Meiyo Peng <meiyopeng@gmail.com>
+Uploaders: Meiyo Peng <meiyopeng@gmail.com>
+Build-Depends: debhelper (>=9), golang
+Standards-Version: 3.9.6
+Homepage: https://github.com/shadowsocks/go-shadowsocks2
+Vcs-Git: https://github.com/shadowsocks/go-shadowsocks2.git
+Vcs-Browser: https://github.com/shadowsocks/go-shadowsocks2
+
+Package: shadowsocks-go
+Architecture: all
+Depends: ${misc:Depends}
+Description: shadowsocks-go

@@ -1,0 +1,31 @@
+* Shadowsocks-go
+  Upstream: https://github.com/shadowsocks/go-shadowsocks2
+
+  An implementation of Shadowsocks in Go.
+
+* PPA
+  Launchpad PPA: https://launchpad.net/~meiyopeng/+archive/ubuntu/librenet
+
+  Add this ppa: ~add-apt-repository ppa:meiyopeng/librenet~
+
+* Build
+  Pull source code
+  #+BEGIN_SRC sh
+    make init
+  #+END_SRC
+
+  Update source code
+  #+BEGIN_SRC sh
+    make update
+  #+END_SRC
+
+  Build package
+  #+BEGIN_SRC sh
+    make
+  #+END_SRC
+
+  Create deb source package
+  #+BEGIN_SRC sh
+    make init
+    debuild -S
+  #+END_SRC
